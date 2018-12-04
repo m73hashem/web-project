@@ -1,0 +1,37 @@
+.main{position: relative;
+    background-color: #e8dff0;
+    width: 98%;
+    height: 100%;
+    margin-left: 1%;
+}
+
+.head{background-color: #c9d8d8;
+padding-bottom: 20px;}
+
+.links ul{
+    list-style-type: none;
+     
+}
+.links li{
+    display: inline;
+    margin: 5px;
+    font-size: 1.3em;}
+.links a{text-decoration: none; }
+.links .login{position: absolute; 
+    right: 25px;
+    width: 80px;
+    padding-left: 20px;
+    background-color: aliceblue;}
+#divlog{visibility: hidden;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    color: aliceblue;
+    background-color: rgba(56, 59, 59, 0.79);
+}
+#cl{position: absolute;
+right: 30px;
+top: 30px;}

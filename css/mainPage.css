@@ -1,0 +1,49 @@
+
+.container{background-color: #bfbfbf;
+    margin-top: 25px; 
+    width: 98%;
+    margin-left: 1%;
+}
+.container div{
+    display: inline;
+    height: 500px;
+    float: left;
+}
+.left{width: 27%;
+    
+}
+.left form{margin-left: 10px;}
+.left input{width: 90%;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.left span{
+    font-size: 24px;
+ color: red;}
+.center{width: 44%;
+    background-color:  #f1edf4;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.right{width: 27%;
+}
+.right form{margin-left: 15px;
+font-size: 1.1em;}
+.right select{width: 95%;
+height: 30px;}
+.right input{width: 60%;
+height: 30px;
+margin-top: 10px;
+margin-left: 15%;}
+.right span{
+    font-size: 24px;
+ color: red;}
+.container #clf{clear: both;}
+
+.footer{background-color: #c9d8d8;
+margin-top: 25px;
+height: 40px;}

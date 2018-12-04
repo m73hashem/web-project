@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>main page</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/mainStyle.css" />
+    <link rel="stylesheet" href="css/mainPage.css" />
+    </head>
+    <body>
+        <div id="divlog">
+                <h1>login / sign up</h1>
+            <button onclick="divhide()" id="cl" >close</button>
+                </div>
+            
+        <div class="main">
+            <div class="head">website logo 
+            <div class="links" >
+                <ul>
+                    <li><a href="mainPage.html"> home </a></li>
+                    <li><a href="#"> services </a> </li>
+                    <li><a href="php/doctors.php"> doctors </a></li>
+                    <li> <a href="php/department.php"> departments </a></li>
+                    <li> <a href="#"> contact us </a></li>
+                    <li class="login" id="login" onclick="divshow()"> <a href="#"> log in </a></li>
+                
+                </ul>
+            </div>
+            </div>
+             <hr>
+            <div class="container">
+                
+            <div class="left">
+                <span class="title"><h3>Ask A Doctor </h3> </span>
+                <form>
+                    <input type="text" placeholder="Your Name" />
+                    <input type="email" placeholder="Your E-Mail" />
+                    <textarea rows="8" cols="39" placeholder=" Your Question Here..." ></textarea>
+                    <br>
+                    <input type="reset"  />
+                    <br>
+                    <input type="submit" value="Send" />
+                </form>
+                
+                </div>
+            <div class="center">
+                <h2>answer of questions.... </h2>
+                
+                </div>
+            <div class="right"> 
+                <span class="title"><h3>Find A Doctor</h3> </span>
+                <form action="php/show_result.php" method="get">
+                <table>
+                    <tr>
+                        <td>Speciality :  </td>
+                        <td>
+                            <select name="sp">
+                        <option value="All Specialities">All Specialities </option>
+                        <option value="Allergy and immunology" >Allergy and immunology </option>
+                        <option value="Cardiology" >Cardiology </option>
+                        <option value="Dermatology" >Dermatology </option>
+                        <option value="Ear, nose and throat" >Ear, nose and throat (ENT) </option>
+                        <option value="Endocrinology" >Endocrinology</option>
+                        <option value="Gastroenterology" >Gastroenterology </option>
+                        <option value="General Surgery" >General Surgery </option>
+                        <option value="Hematology" >Hematology </option>
+                        <option value="Internal Medicine" >Internal Medicine </option>
+                        <option value="Nephrology" >Nephrology </option>
+                        <option value="Neurology" >Neurology </option> 
+                        <option value="Obstetrics and Gynecology" >Obstetrics and Gynecology </option>
+                        <option value="Ophthalmology" >Ophthalmology </option>
+                        <option value="Orthopedics" >Orthopedics </option>
+                        <option value="Pediatrics" >Pediatrics </option>
+                            </select> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>City : </td>
+                        <td>
+                            <select name="city">
+                        <option value="All Cites" >All Cites </option>
+                        <option value="city 1" >city 1</option>
+                        <option value="city 2" >city 2</option>
+                        <option value="city 3" >city 3</option>
+                        <option value="city 4" >city 4</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                    <input type="submit" value="Search" />
+                </form>
+                </div>
+                
+            <p id="clf" ></p>
+                
+            </div>
+            <div class="footer">footer</div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
